@@ -1,0 +1,17 @@
+{
+  "name": "ruuvi-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jari Saukkonen",
+  "license": "MIT",
+  "dependencies": {
+    "bluetooth-hci-socket": "npm:@abandonware/bluetooth-hci-socket@^0.5.3-5",
+    "node-ruuvitag": "^4.1.0",
+    "request": "^2.81.0"
+  }
+}
