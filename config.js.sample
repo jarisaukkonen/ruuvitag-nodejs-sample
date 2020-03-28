@@ -1,0 +1,6 @@
+module.exports = {
+    endpoint: 'https://my-influxdb-instance/write',
+    db: '',
+    username: '',
+    password: ''
+}
