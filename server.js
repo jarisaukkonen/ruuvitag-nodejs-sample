@@ -16,7 +16,6 @@ ruuvi.on('found', tag => {
             	db: config.db,
             	precision: 'ms'
             },
-            auth: { 'username': config.username, 'password': config.password },
             body: data
         }, (error, response, body) => {
             if (!error && response.statusCode == 204) {
